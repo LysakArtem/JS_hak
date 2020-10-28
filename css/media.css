@@ -1,0 +1,41 @@
+@media (min-width: 768px) {
+  .search-film__input::placeholder {
+    line-height: 16px;
+    font-size: 16px;
+  }
+
+  .main-content {
+    width: 714px;
+  }
+
+  .pagination {
+    width: 212px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .pagination__element {
+    height: 38px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .pagination__element_button {
+    width: 75px;
+  }
+  .pagination__element_current-page {
+    width: 38px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main-content {
+    width: 964px;
+  }
+
+  .pagination {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
